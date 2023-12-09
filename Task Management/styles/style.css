@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  .container {
+    border: 1px solid black;
+    width: 35%;
+    margin: 2rem auto;
+    padding: 1rem;
+  }
+  h3 {
+    text-align: center;
+    padding: 1rem 0;
+  }
+  form {
+    width: 90%;
+    border: 1px;
+  }
+  #task-input {
+    width: 70%;
+  }
+  .add-btn {
+    width: calc(100%-70%);
+  }
+  .task-items {
+    list-style: none;
+    width: 90%;
+  }
+  #search {
+    width: 80%;
+    margin: 10px 0;
+  }
+  .err {
+    width: 80%;
+    display: none;
+    background-color: rgb(234, 175, 175);
+    color: red;
+    margin: 2px 0;
+  }
